@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "Monro" => "monro@test.com" }
   # s.source       = { :path => '.' }
   s.source       = { :git => "https://github.com/monRo/TestPod", :tag => "#{s.version}" }
-  s.source_files  = "Source/**/*.swift"
+  s.source_files  = "StringMagic/Source/**/*.swift"
 end
