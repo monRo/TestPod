@@ -22,7 +22,7 @@ private extension Array {
 }
 
 public extension String {
-    var jumble: String {
+    public var jumble: String {
         return String(Array(self).shuffled)
     }
 }
